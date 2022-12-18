@@ -22,7 +22,8 @@
     "format:full": "npm run format:src && npm run format:example",
     "format:src": "prettier --write --config ./package.json src",
     "dev:example": "node example/index.js",
-    "dev:start": "ts-node src/index.ts"
+    "dev:start": "ts-node src/index.ts",
+    "prepublishOnly": "npm run build:full"
   },
   "devDependencies": {
     "@types/node": "^18.11.17",
