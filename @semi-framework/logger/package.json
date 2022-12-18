@@ -1,6 +1,6 @@
 {
   "name": "@semi-framework/logger",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "The @semi-framework/logger package of the Semi-Framework.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,15 +21,19 @@
     "format:example": "prettier --write --config ./package.json example",
     "format:full": "npm run format:src && npm run format:example",
     "format:src": "prettier --write --config ./package.json src",
-    "dev:example": "node example/index.js",
+    "dev:example": "cross-env DEBUG=\"1\" node example/index.js",
     "dev:start": "ts-node src/index.ts",
     "prepublishOnly": "npm run build:full"
   },
   "devDependencies": {
     "@types/node": "^18.11.17",
+    "cross-env": "^7.0.3",
     "prettier": "^2.8.1",
     "rimraf": "^3.0.2",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0"
   }
 }
