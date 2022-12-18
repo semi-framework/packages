@@ -147,6 +147,6 @@ export class Logger {
 }
 
 //wrapper for new Logger
-export function createLogger(config: Partial<ILoggerConfig>) {
+export function createLogger(config?: Partial<ILoggerConfig>) {
   return new Logger(config);
 }
