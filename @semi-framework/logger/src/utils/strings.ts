@@ -1,10 +1,10 @@
 //wrapper function for upper case
-export function up(message: string) {
+export function up(message: string): string {
   return message.toUpperCase();
 }
 
 //wrapper function for lower case
-export function low(message: string) {
+export function low(message: string): string {
   return message.toLowerCase();
 }
 
