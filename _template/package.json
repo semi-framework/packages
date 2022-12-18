@@ -1,0 +1,13 @@
+{
+  "name": "@semi-framework/__NAME__",
+  "version": "0.2.0",
+  "description": "The @semi-framework/__NAME__ package of the Semi-Framework.",
+  "main": "dist/index.js",
+  "repository": "https://github.com/semi-framework/packages.git",
+  "author": "Laurenz1606 <laurenz1606 <laurenz.rausche@gmail.com>>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
