@@ -1,6 +1,6 @@
 {
   "name": "@semi-framework/node",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "The @semi-framework/node package of the Semi-Framework.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
