@@ -1,6 +1,6 @@
 {
   "name": "@semi-framework/logger",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "The @semi-framework/logger package of the Semi-Framework.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

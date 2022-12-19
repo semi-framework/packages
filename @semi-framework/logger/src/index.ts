@@ -39,7 +39,7 @@ export interface ILoggerConfig {
 }
 
 //type for a logger function
-export type Loggerfunction = (level: LogLevels, message: ErrorMessage) => void
+export type Loggerfunction = (level: LogLevels, message: ErrorMessage) => void;
 
 //logger class
 export class Logger {
